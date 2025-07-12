@@ -1,0 +1,60 @@
+
+---Downloaded files---
+The import files for: Home were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://ikon.local
+Data file = C:\Users\Usuario\Local Sites\ikon\app\public/wp-content/themes/cryco//inc/demo-content/content.xml
+Widget file = C:\Users\Usuario\Local Sites\ikon\app\public/wp-content/themes/cryco//inc/demo-content/widgets.wie
+Customizer file = C:\Users\Usuario\Local Sites\ikon\app\public/wp-content/themes/cryco//inc/demo-content/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - Search - Imported
+Xpress : Recent Posts - Recent Posts - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+
+Shop Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

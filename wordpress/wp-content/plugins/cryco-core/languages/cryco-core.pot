@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-17 23:58+0600\n"
+"PO-Revision-Date: 2024-03-17 23:58+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: lib\n"
+
+#: elementor/elementor-init.php:49
+msgid "Cryco Addons"
+msgstr ""
+
+#: elementor/elementor-init.php:56
+msgid "Cryco Header & Footer"
+msgstr ""
+
+#: elementor/widgets/about-img.php:91 elementor/widgets/sec-title.php:91
+#: elementor/widgets/xb-button.php:91
+msgid "Design Style"
+msgstr ""
+
+#: elementor/widgets/about-img.php:94 elementor/widgets/sec-title.php:94
+#: elementor/widgets/xb-button.php:94
+msgid "Style 1"
+msgstr ""
+
+#: elementor/widgets/about-img.php:95 elementor/widgets/sec-title.php:95
+#: elementor/widgets/xb-button.php:95
+msgid "Style 2"
+msgstr ""
+
+#: elementor/widgets/blog.php:103
+msgid "Posts Per Page"
+msgstr ""
+
+#: elementor/widgets/blog.php:122
+msgid "Title Length"
+msgstr ""
+
+#: elementor/widgets/blog.php:389
+msgid "By:"
+msgstr ""
+
+#: elementor/widgets/brand.php:129
+msgid "Opacity"
+msgstr ""
+
+#: elementor/widgets/career.php:310 elementor/widgets/portfolio-v2.php:211
+#: elementor/widgets/portfolio-v3.php:295
+#: elementor/widgets/portfolio-v4.php:326
+#: elementor/widgets/portfolio-v5.php:338 elementor/widgets/service-v2.php:315
+#: elementor/widgets/service-v3.php:295 elementor/widgets/service-v4.php:387
+#: elementor/widgets/service-v5.php:315 elementor/widgets/service-v6.php:392
+#: elementor/widgets/service-v7.php:305 elementor/widgets/service-v8.php:297
+#: elementor/widgets/service.php:349 elementor/widgets/team-v2.php:386
+#: elementor/widgets/team-v4.php:386 elementor/widgets/team-v5.php:386
+#: elementor/widgets/team.php:386
+msgid "Select"
+msgstr ""
+
+#: elementor/widgets/faq.php:112 elementor/widgets/sec-title.php:126
+#: elementor/widgets/xb-blur.php:140 elementor/widgets/xb-button.php:139
+#: elementor/widgets/xb-link.php:116 elementor/widgets/xb-logo.php:131
+#: elementor/widgets/xb-social.php:124
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/faq.php:117 elementor/widgets/sec-title.php:131
+#: elementor/widgets/xb-blur.php:145 elementor/widgets/xb-button.php:144
+#: elementor/widgets/xb-link.php:121 elementor/widgets/xb-logo.php:136
+#: elementor/widgets/xb-social.php:129
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/faq.php:122 elementor/widgets/sec-title.php:136
+#: elementor/widgets/xb-blur.php:150 elementor/widgets/xb-button.php:149
+#: elementor/widgets/xb-link.php:126 elementor/widgets/xb-logo.php:141
+#: elementor/widgets/xb-social.php:134
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/hero-one.php:106
+msgid ""
+"Take Your <br> <span class=\"sp-two\">Online</span> <span class=\"sp-"
+"one\">Journey</span>"
+msgstr ""
+
+#: elementor/widgets/hero-one.php:127 elementor/widgets/hero-two.php:113
+msgid ""
+"Over 200 specialist Marketer. <br> 14 offices worldwide. <br> Landmark cases "
+"for the world’s largest firms."
+msgstr ""
+
+#: elementor/widgets/hero-one.php:136 elementor/widgets/hero-two.php:122
+msgid "Show <br> PROJECTS"
+msgstr ""
+
+#: elementor/widgets/hero-two.php:92
+msgid ""
+"Achieve <br> <span class=\"sp-one\">More with</span> <span class=\"sp-"
+"two\">Less Effort</span>"
+msgstr ""
+
+#: elementor/widgets/portfolio-v2.php:118
+#: elementor/widgets/portfolio-v3.php:125
+#: elementor/widgets/portfolio-v4.php:125
+#: elementor/widgets/portfolio-v5.php:144
+#, php-format
+msgid ""
+"Please note! Customize your selected Portfolio using Elementor. You can find "
+"it under <a href=\"%s\" target=\"_blank\">Portfolio</a>."
+msgstr ""
+
+#: elementor/widgets/portfolio.php:125
+msgid "Portfolio Per Page"
+msgstr ""
+
+#: elementor/widgets/sec-title.php:96 elementor/widgets/xb-button.php:96
+msgid "Style 3"
+msgstr ""
+
+#: elementor/widgets/service-v2.php:132 elementor/widgets/service-v3.php:125
+#: elementor/widgets/service-v4.php:133 elementor/widgets/service-v5.php:132
+#: elementor/widgets/service-v6.php:149 elementor/widgets/service-v7.php:132
+#: elementor/widgets/service-v8.php:167 elementor/widgets/service.php:139
+#, php-format
+msgid ""
+"Please note! Customize your selected Service using Elementor. You can find "
+"it under <a href=\"%s\" target=\"_blank\">Services</a>."
+msgstr ""
+
+#: elementor/widgets/team-title.php:90
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/team-title.php:92
+msgid "Enter your text here"
+msgstr ""
+
+#: inc/custom-widget/top-rated-products-widget.php:14
+msgid "Xpress Top Rated Products"
+msgstr ""
+
+#: inc/custom-widget/top-rated-products-widget.php:15
+msgid "Display top rated products in the sidebar."
+msgstr ""
+
+#: inc/custom-widget/top-rated-products-widget.php:22
+msgid "Top Rated Products"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:51
+msgid "Header Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:52
+#: inc/metabox-and-options/metabox/common-metaboxes.php:68
+#: inc/metabox-and-options/metabox/common-metaboxes.php:184
+#: inc/metabox-and-options/metabox/common-metaboxes.php:206
+#: inc/metabox-and-options/theme-options/career-options.php:17
+#: inc/metabox-and-options/theme-options/portfolio-options.php:17
+#: inc/metabox-and-options/theme-options/service-options.php:17
+#: inc/metabox-and-options/theme-options/team-options.php:17
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:23
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:57
+msgid "Yes"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:53
+#: inc/metabox-and-options/metabox/common-metaboxes.php:69
+#: inc/metabox-and-options/metabox/common-metaboxes.php:185
+#: inc/metabox-and-options/metabox/common-metaboxes.php:207
+#: inc/metabox-and-options/theme-options/career-options.php:18
+#: inc/metabox-and-options/theme-options/portfolio-options.php:18
+#: inc/metabox-and-options/theme-options/service-options.php:18
+#: inc/metabox-and-options/theme-options/team-options.php:18
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:24
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:58
+msgid "No"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:60
+#: inc/metabox-and-options/theme-options/header-options.php:24
+msgid "Select Header Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:67
+msgid "Disable This page Header?"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:183
+msgid "Footer Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:191
+#: inc/metabox-and-options/theme-options/footer-options.php:12
+msgid "Select Footer Style"
+msgstr ""
+
+#: inc/metabox-and-options/metabox/common-metaboxes.php:205
+msgid "DIsable This page Footer?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/career-options.php:16
+#: inc/metabox-and-options/theme-options/portfolio-options.php:16
+#: inc/metabox-and-options/theme-options/service-options.php:16
+#: inc/metabox-and-options/theme-options/team-options.php:16
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/theme-options.php:16
+#, php-format
+msgid "Cryco Options <small>V %s</small>"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/theme-options.php:19
+msgid "Theme Options"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/theme-options.php:28
+msgid ""
+"Developed by: <a target=\"_blank\" href=\"https://crycobuddy."
+"com\">XpressBuddy</a>"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:22
+#: inc/metabox-and-options/theme-options/woocommerce-options.php:56
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: inc/post-type/header-footer.php:7
+msgid "Header & Footer"
+msgstr ""
+
+#: inc/post-type/header-footer.php:8
+msgid "Template"
+msgstr ""

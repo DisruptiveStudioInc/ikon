@@ -1,0 +1,128 @@
+/*
+ Theme Name: Cryco Child
+ Theme URI: http://ejemplo.com/cryco-child/
+ Description: Tema hijo para Cryco
+ Author: Raul Bonilla
+ Author URI: http://tupaginaweb.com
+ Template: cryco 
+ Version: 1.0.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: cryco-child
+*/
+:root {
+    --color-primary: #8538F2 !important;
+}
+.them-btn.btn-transparent:hover{
+	background-color: #8538F2 !important;
+    color: #000 !important;
+    border-color: #9373D9 !important;
+}
+
+.them-btn.btn-transparent {
+    background-color: transparent;
+    color: #fff;
+    border-color: #9373D9 !important;
+}
+.feature-wrap {
+background: linear-gradient(335deg, #9373D9 0%, #0D0D0D 66.48%, #8538F2 100%) !important; }
+.roadmap-wrap .roadmap--year span {
+	color: #9373D9 !important;
+}
+.roadmap-wrap .roadmap--circle {
+    background:radial-gradient(532.71% 290.63% at 50% 90.63%, #9373D9 0%, #8538F2 28.0000001192%, #8538F2 75%)!important;
+	
+}
+.roadmap-wrap .roadmap--circle span {
+    background: radial-gradient(532.71% 290.63% at 50% 90.63%, #9373D9 0%, #F2D852 9.0000003576%) !important;
+}
+
+.them-btn {
+    
+font-size: 25px !important;}
+.hero--sec-titlt-two .title span::before {
+background: transparent !important;}
+.hero--sec-titlt-two .title span::after {
+	background: transparent !important;
+}
+
+
+.xb-feature .xb-item--holder {
+background: #000000 !important;}
+.xb-feature {
+	    background: #9373d97a;
+}
+.xb-feature::before {
+	background: linear-gradient(180deg, #F2D852 0%, #8538F2 100%) !important;
+}
+.xb-feature::after {
+background: linear-gradient(90deg, #8538f2 13.38%, #C4D929 48.09%, #8538f2 80%) !important;
+}
+.xb-inner .xb-item--field input, .xb-inner .xb-item--field textarea {
+border-bottom: 2px solid #8538f2 !important;
+color: #ffffff !important;
+padding: 0px !important;}
+ input::placeholder {
+color:#ffffff !important; 
+ opacity: 1 !important;}
+ textarea::placeholder {
+	 color:#ffffff !important; 
+ opacity: 1 !important;}
+ 
+     
+.xb-inner .xb-item--checkbox .form-check-label {
+    color: #ffffff !important;
+	
+}
+.xb-inner .xb-item--checkbox .form-check-label a {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+.xb-inner .xb-item--field .icon-user::before {
+background-image: url(../img/contact-user.svg);
+}
+#invierte > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-bb71cb4.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-b19b022 > div > div > div > div > div.xb-item--img.col-img > img{
+	width: 614px;
+}
+ .elementor-icon-list-item {
+    list-style-type: none !important;
+
+}
+ol, ul {
+    padding-left: 2rem !important;
+}
+#contact > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-5196ec2.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div.elementor-element.elementor-element-1dcb040.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-f76a12b.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-b42ea7b.elementor-icon-list--layout-traditional.elementor-list-item-link-full_width.elementor-widget.elementor-widget-icon-list > div > ul {
+    padding-left: 0rem !important;
+}
+#contact > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-5196ec2.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div.elementor-element.elementor-element-1dcb040.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-f803bca.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-75bb365.elementor-icon-list--layout-inline.elementor-list-item-link-full_width.elementor-widget.elementor-widget-icon-list > div > ul{
+	  padding-left: 0rem !important;
+}
+#contact > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-5196ec2.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div.elementor-element.elementor-element-1dcb040.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-f803bca.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-9a8f1a6.xb-footer-link.elementor-icon-list--layout-inline.elementor-list-item-link-full_width.elementor-widget.elementor-widget-icon-list > div > ul{
+	  padding-left: 0rem !important;
+}
+.grd-border::before {
+background: linear-gradient(162deg, #9784D9 0%, #F2E205 28.35%, #0f0d39 73.81%, #9950CF 100%) !important;}
+#invierte > div.elementor-container.elementor-column-gap-no > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-bb71cb4.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-0a1a13c > div > div > div > div{
+	height: 673px;
+}
+.roadmap--info{
+	
+    padding-left: 6rem !important;
+
+}
+
+@media only screen and (max-width: 900px) {
+	.them-btn {
+    font-size: 19px !important;
+}
+.elementor-element.elementor-element-080980f {
+	font-size: 18px !important;;
+}
+.elementor-element.elementor-element-ea422a7 {
+	font-size: 18px !important;;
+}
+}
+.xb-freatue-crypto {
+    
+background: #080b18 !important;
+}
