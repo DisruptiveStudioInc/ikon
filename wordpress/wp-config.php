@@ -3,7 +3,7 @@
  * The base configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the installation.
- * You don't have to use the web site, you can copy this file to "wp-config.php"
+ * You don't have to use the website, you can copy this file to "wp-config.php"
  * and fill in the values.
  *
  * This file contains the following configurations:
@@ -11,17 +11,26 @@
  * * Database settings
  * * Secret keys
  * * Database table prefix
- * * Localized language
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
  *
  * @package WordPress
  */
 
+define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/');
+define( 'WP_HOME',    'http://' . $_SERVER['HTTP_HOST'].'/');
+define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content');
+define( 'WP_PRODUCTION', false);
+define( 'WP_AUTO_UPDATE_CORE', false );
+
+/* That's all, stop editing! Happy blogging. */
+#define('FS_METHOD', 'direct');
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
+define( 'DB_NAME', 'ikondatabase' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -30,10 +39,10 @@ define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'host.docker.internal' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -59,7 +68,6 @@ define( 'LOGGED_IN_SALT',    '.}bt6g`QF^yy#EGe^qqB.s<z@HWSi#Y)bA(Xa#wZQE/,JFB;mg
 define( 'NONCE_SALT',        '<r1E:P_bK+G]`Cd>iY.C6HOEu5?}^!}.i5HE4s7H<9NOq.>nbTiW@xtlE0do(9a4' );
 define( 'WP_CACHE_KEY_SALT', 'bs6%H>5D,CiZ26R5U3XS@XMtGV.h/*NQO<y?E%P8$Dn$8H=AcULnO@<2@%DN@E y' );
 
-
 /**#@-*/
 
 /**
@@ -67,13 +75,14 @@ define( 'WP_CACHE_KEY_SALT', 'bs6%H>5D,CiZ26R5U3XS@XMtGV.h/*NQO<y?E%P8$Dn$8H=AcU
  *
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
+ *
+ * At the installation time, database tables are created with the specified prefix.
+ * Changing this value after WordPress is installed will make your site think
+ * it has not been installed.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
 $table_prefix = 'wp_';
-
-
-/* Add any custom values between this line and the "stop editing" line. */
-
-
 
 /**
  * For developers: WordPress debugging mode.
@@ -85,13 +94,25 @@ $table_prefix = 'wp_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false);
+@ini_set( 'display_errors', 0 );
+
+//$_SERVER['HTTPS']='on';
+if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
+    $_SERVER['HTTPS']='on';
+if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
+    $_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST'];
 }
-define('ALLOW_UNFILTERED_UPLOADS', true);
-define( 'WP_ENVIRONMENT_TYPE', 'local' );
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+define('WP_MEMORY_LIMIT', '256M');
+define('WP_MAX_MEMORY_LIMIT', '512M');
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
