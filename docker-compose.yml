@@ -7,10 +7,10 @@ services:
     volumes:
       - ./:/var/www/html
     environment:
-      MYSQL_HOST: 'host.docker.internal'  # O la IP real si es Linux puro
-      MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'root'
-      MYSQL_DATABASE: 'ikondatabase'
+      MYSQL_HOST: '172.17.0.1'  # O la IP real si es Linux puro
+      MYSQL_USER: 'ikon_site_user'
+      MYSQL_PASSWORD: 'Ssff67F@#2dfgdssdd'
+      MYSQL_DATABASE: 'ikon_staging_token_db'
     #depends_on:
     #  - woocommercedb
     #links:
