@@ -126,3 +126,14 @@ background: linear-gradient(162deg, #9784D9 0%, #F2E205 28.35%, #0f0d39 73.81%, 
     
 background: #080b18 !important;
 }
+@media only screen and (max-width: 700px) {
+	.them-btn {
+    font-size: 15px !important;
+}
+.elementor-element.elementor-element-080980f {
+	font-size: 18px !important;;
+}
+.elementor-element.elementor-element-ea422a7 {
+	font-size: 18px !important;;
+}
+}
